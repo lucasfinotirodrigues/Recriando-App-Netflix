@@ -1,0 +1,7 @@
+{
+  "name": "recriando_netflix",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
