@@ -1,0 +1,38 @@
+//Importando a Font da Netflix
+
+@font-face {
+  font-family: 'NetflixSans-Light';
+  src: url(../../assets/fonts/NetflixSans-Light.otf) format(opentype);
+}
+@font-face {
+  font-family: 'NetflixSans-Medium';
+  src: url(../../assets/fonts/NetflixSans-Medium.otf) format(opentype);
+}
+@font-face {
+  font-family: 'NetflixSans-Regular';
+  src: url(../../assets/fonts/NetflixSans-Regular.otf) format(opentype);
+}
+@font-face {
+  font-family: 'NetflixSans-Bold';
+  src: url(../../assets/fonts/NetflixSans-Bold.otf) format(opentype);
+}
+
+span{
+  font-family: 'NetflixSans-Regular'; 
+  font-size: 13px;
+  text-transform: capitalize;
+
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+img{
+  width: 36px;
+}
+
